@@ -13,6 +13,10 @@ var headerImg  = 'i/top.png';
 /* Add the header image to the page */
 $('top').style.background += "url(" + headerImg + ")";
 
+
+/* ------ HANDLE THE SEARCH ------ */
+
+
 /* Create the html for the search bar */
 var searchHtml = [
   '<form method="get" action="https://www.google.com/search">',
@@ -23,9 +27,9 @@ var searchHtml = [
 /* Add the search bar to the page */
 $('top').innerHTML += searchHtml;
 
-/* HANDLE THE SEARCH */
 
-/* HANDLE THE BOXES */
+/* ------ HANDLE THE BOXES ------ */
+
 
 /* Array with links ["Title", "url"] */
 var links = [
